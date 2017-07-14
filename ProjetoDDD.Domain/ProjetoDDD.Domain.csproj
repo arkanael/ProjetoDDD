@@ -47,6 +47,10 @@
     <Compile Include="Entities\Dependente.cs" />
     <Compile Include="Entities\Funcionario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseService.cs" />
+    <Compile Include="Services\DependenteService.cs" />
+    <Compile Include="Services\FuncionarioService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
