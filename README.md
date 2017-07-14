@@ -13,4 +13,5 @@ DDD - Domain Driven Design
   mas sim no negócio, na atividade que é exercida pelo cliente ou problema que o mesmo possui.
   
   
-
+#Domain.Services
+ Classes da camada de domínio para o desenvolvimento das regras de negócio do projeto. Aqui serão programados serviços para atender diretamente aos requisitos do projeto.
