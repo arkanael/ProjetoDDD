@@ -16,6 +16,14 @@ namespace ProjetoDDD.Repository.Configurations
     /// </summary>
     public class DataContext:DbContext
     {
+        /// <summary>
+        /// Contrutor envia o nome da connectionstring para a super classe
+        /// </summary>
+        public DataContext():base("DataBase")
+        {
+
+        }
+
         ///<summary>
         ///sobrescrever o método OnModelCreating definido as classes de mapeamento do projeto
         ///

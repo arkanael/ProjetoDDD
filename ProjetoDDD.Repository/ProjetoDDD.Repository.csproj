@@ -50,6 +50,7 @@
     <Compile Include="Configurations\DataContext.cs" />
     <Compile Include="Mappings\DependenteMap.cs" />
     <Compile Include="Mappings\FuncionarioMap.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
