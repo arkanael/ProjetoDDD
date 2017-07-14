@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\DataContext.cs" />
     <Compile Include="Mappings\DependenteMap.cs" />
     <Compile Include="Mappings\FuncionarioMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

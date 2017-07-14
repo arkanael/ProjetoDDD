@@ -31,7 +31,7 @@ namespace ProjetoDDD.Repository.Mappings
 
             HasRequired(dependente => dependente.Funcionario)
                 .WithMany(funcionario => funcionario.Dependentes)
-                .HasForeignKey(dependente => dependente.Id);
+                .HasForeignKey(dependente => dependente.IdFuncionario);
         }
     }
 }
