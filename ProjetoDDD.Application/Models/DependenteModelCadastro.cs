@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoDDD.Application.Models
 {
-    public class DepedenteModelCadastro
+    public class DependenteModelCadastro
     {
         [Required(ErrorMessage = "Informe o nome do dependente.")]
         public string Nome { get; set; }

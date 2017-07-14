@@ -90,12 +90,15 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DependenteController.cs" />
+    <Compile Include="Controllers\FuncionarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DepedenteModelCadastro.cs" />
+    <Compile Include="Models\DependenteModelCadastro.cs" />
     <Compile Include="Models\DependenteModelConsulta.cs" />
     <Compile Include="Models\DependenteModelEdicao.cs" />
+    <Compile Include="Models\Funcionario\FuncionarioModelCadastro.cs" />
+    <Compile Include="Models\Funcionario\FuncionarioModelEdicao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

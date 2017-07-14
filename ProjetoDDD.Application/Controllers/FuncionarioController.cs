@@ -5,19 +5,21 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using ProjetoDDD.Application.Models;
+using ProjetoDDD.Application.Models.Funcionario;
 
 namespace ProjetoDDD.Application.Controllers
 {
-    [RoutePrefix("api/dependende")]
-    public class DependenteController : ApiController
+    [RoutePrefix("/api/funcionario")]
+    public class FuncionarioController : ApiController
     {
+        
         [HttpPost]
         [Route("cadastrar")]
-        public HttpResponseMessage Post(DependenteModelCadastro model)
+        public HttpResponseMessage Post(FuncionarioModelCadastro model)
         {
             try
             {
-                
+
                 if (ModelState.IsValid)
                 {
                     ///<summary>
@@ -46,7 +48,7 @@ namespace ProjetoDDD.Application.Controllers
 
         [HttpPut]
         [Route("atualizar")]
-        public HttpResponseMessage Put(DependenteModelEdicao model)
+        public HttpResponseMessage Put(FuncionarioModelEdicao model)
         {
             try
             {
