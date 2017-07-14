@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{D9577C15-04F6-4DDB-9E92-BF0DEF932DF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Aplicação", "2 - Camada de Aplicação", "{634DE876-78EF-4A4C-BE88-39AB180A5696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Dominio", "3 - Camada de Dominio", "{78FD9914-AB92-4C0B-96DF-BF70BF68539F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de InfraEstrutura", "4 - Camada de InfraEstrutura", "{96DAE748-4012-4E8C-BA94-0AD1CC0EE60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Domain", "ProjetoDDD.Domain\ProjetoDDD.Domain.csproj", "{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Repositorio de Dados", "4.1 - Repositorio de Dados", "{AA090E2A-8B64-4DF3-B687-B261825B60CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDD.Repository", "ProjetoDDD.Repository\ProjetoDDD.Repository.csproj", "{8204C7EB-AAC6-4868-B1F1-4EB2AE637609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8204C7EB-AAC6-4868-B1F1-4EB2AE637609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8204C7EB-AAC6-4868-B1F1-4EB2AE637609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8204C7EB-AAC6-4868-B1F1-4EB2AE637609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8204C7EB-AAC6-4868-B1F1-4EB2AE637609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DECF35D0-E5EE-4042-AEB6-8F0E5B2AE7B5} = {78FD9914-AB92-4C0B-96DF-BF70BF68539F}
+		{AA090E2A-8B64-4DF3-B687-B261825B60CC} = {96DAE748-4012-4E8C-BA94-0AD1CC0EE60B}
+		{8204C7EB-AAC6-4868-B1F1-4EB2AE637609} = {AA090E2A-8B64-4DF3-B687-B261825B60CC}
+	EndGlobalSection
+EndGlobal
