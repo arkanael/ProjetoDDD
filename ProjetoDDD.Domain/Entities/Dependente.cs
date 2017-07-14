@@ -12,7 +12,9 @@ namespace ProjetoDDD.Domain.Entities
     public class Dependente:BaseEntities
     {
         public DateTime DataNascimento { get; set; }
-       
+
+        public int IdFuncionario { get; set; }
+
         /// <summary>
         /// Dependente tem 1  tem um Funcionario
         /// </summary>
